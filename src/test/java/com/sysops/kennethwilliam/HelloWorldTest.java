@@ -9,7 +9,7 @@ class HelloWorldTest {
     @Test
     public void should_return_hello_world() {
         HelloWorld helloworld = new HelloWorld();
-    String result = helloworld.helloWorld();git
+    String result = helloworld.helloWorld();
 
     assertThat(result).isEqualTo("Hello World");
 }
